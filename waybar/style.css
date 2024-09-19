@@ -1,0 +1,142 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family:
+    Jetbrains Mono Nerd Font,
+    Fira Code,
+    Fira Code Symbol,
+    monospace;
+  font-weight: bold;
+  font-size: 13px;
+  min-height: 0;
+}
+
+window#waybar {
+  background: rgba(21, 18, 27, 0); /* this is transparent :0 */
+  color: #cdd6f4;
+  color : #E1E1E1;
+  background-color: #11111b;
+  background-color: black;
+  /*opacity: 0.85;*/
+  opacity: 0.85;
+}
+
+tooltip {
+  background: #1e1e2e;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #11111b;
+}
+
+#workspaces button {
+  padding: 5px;
+  color: #313244;
+  margin-right: 5px;
+}
+
+#workspaces button.active {
+  color: #a6adc8;
+}
+
+#workspaces button.focused {
+  color: #a6adc8;
+  background: #eba0ac;
+  border-radius: 10px;
+}
+
+#workspaces button.urgent {
+  color: #11111b;
+  background: #a6e3a1;
+  border-radius: 10px;
+}
+
+#workspaces button:hover {
+  color: #cdd6f4;
+  border-radius: 10px;
+}
+
+#language,
+#custom-updates,
+#custom-caffeine,
+#custom-weather,
+#window,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#workspaces,
+#tray,
+#backlight {
+  padding: 0px 10px;
+}
+
+#tray {
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+#workspaces {
+  border-radius: 10px;
+  margin-left: 10px;
+  padding-right: 0px;
+  padding-left: 5px;
+}
+
+#custom-caffeine {
+  border-radius: 10px 0px 0px 10px;
+  border-right: 0px;
+  margin-left: 10px;
+}
+
+#custom-language {
+  border-left: 0px;
+  border-right: 0px;
+}
+
+#custom-updates {
+  border-radius: 10px 0px 0px 10px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+#window {
+  border-radius: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+#clock {
+  border-radius: 10px 0px 0px 10px;
+  margin-left: 5px;
+  border-right: 0px;
+}
+
+#network {
+  border-left: 0px;
+  border-right: 0px;
+}
+
+#pulseaudio {
+  border-left: 0px;
+  border-right: 0px;
+}
+
+#pulseaudio.microphone {
+  /*border-radius: 0px 10px 10px 0px; */
+  border-left: 0px;
+  border-right: 0px;
+  /*margin-right: 5px; */
+}
+
+#battery {
+  border-radius: 0 10px 10px 0;
+  margin-right: 10px;
+  border-left: 0px;
+}
+
+#custom-weather {
+  border-radius: 0px 10px 10px 0px;
+  border-right: 0px;
+  margin-left: 0px;
+}
